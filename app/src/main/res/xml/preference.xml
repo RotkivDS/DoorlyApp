@@ -1,0 +1,42 @@
+<androidx.preference.PreferenceScreen
+        xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <Preference
+            app:key="preference_sensors"
+            app:summary="List of all sensors"
+            app:title="Sensor List"
+            app:fragment="de.viktor.doorlyapp.ui.main.pages.MySensorSettingsFragment"/>
+
+<!--    <ListPreference
+            app:key="list_preference_plotting_sensor"
+            app:summary="Choose sensor for plotting"
+            app:title="Sensor List for Plotting"/>-->
+
+<!--
+    <Preference
+            app:key="preference_server"
+            app:summary="List of all sensors"
+            app:title="Server Preferences"
+            app:fragment="de.viktor.doorlyapp.MyBroadcastServerSettingsFragment"/>
+-->
+
+    <EditTextPreference
+            app:dialogTitle="Name Purpose"
+            app:key="purpose_text"
+            app:summary="Change Purpose Name"
+            app:title="Device Purpose"
+    />
+
+    <EditTextPreference
+            app:dialogTitle="Sampling Rate"
+            app:key="sampling_rate_int"
+            app:summary="Change the sampling rate"
+            app:title="Sampling Rate"
+            app:defaultValue="5"
+    />
+    <CheckBoxPreference
+            app:title="Use Polling"
+            app:key="use_polling"
+    />
+
+</androidx.preference.PreferenceScreen>

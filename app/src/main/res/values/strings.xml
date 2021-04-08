@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Doorly</string>
+    <string name="tab_text_1">Sensor Control</string>
+    <string name="tab_text_2">Data List</string>
+    <string name="_1">Indoor</string>
+    <string name="_2">Outdoor</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="tab_text_settings">Settings</string>
+    <string name="settings">Settings</string>
+</resources>
